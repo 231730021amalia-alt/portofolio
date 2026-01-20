@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio - Amalia Kartika</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">Portofolio</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Organisasi</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Sertifikat</a></li> <!-- ← TAMBAHKAN INI -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="intro">
+          <span class="quote animated-text">"Minat pada Pengembangan Aplikasi Web"</span>
+          <h1 class="animated-title">Hi I'm <span>Amalia Kartika</span></h1>
+          <p class="animated-paragraph">
+            Saya adalah mahasiswa jurusan Informatika yang memiliki minat kuat pada pengembangan aplikasi web. Saya memiliki pemahaman dasar hingga menengah dalam web development, termasuk pengembangan front-end dan back-end. Saya siap belajar, beradaptasi dengan teknologi baru, dan berkontribusi sebagai bagian dari tim.
+          </p>
+          <div class="buttons">
+            <a href="cv-amalia-kartika.pdf" download class="btn animated-btn">Download CV</a>
+            <button class="btn-outline">Explore My Projects</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <!-- Ganti placeholder dengan foto full body Anda -->
+          <img src="foto-full-body.png" alt="Amalia Kartika" />
+          <div class="card-info">
+            <h3>Amalia Kartika</h3>
+            <p>Web Developer</p>
+            <div class="status">
+              <i class="fa-solid fa-circle"></i> Available
+            </div>
+            <div class="socials">
+              <a href="mailto:Kartikaamalia025@gmail.com"><i class="fas fa-envelope"></i></a>
+              <a href="https://instagram.com/kartikaaa63" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <button class="btn-contact" onclick="location.href='#contact'">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="fade-in">
+            Saya Amalia Kartika, mahasiswa Informatika yang memiliki minat besar dalam pengembangan aplikasi web. Saya memiliki pemahaman dasar hingga menengah dalam web development, mencakup pengembangan front-end dan back-end menggunakan PHP, JavaScript, HTML, CSS, serta pengelolaan database MySQL.
+
+            Selama perkuliahan, saya terbiasa mengerjakan proyek akademik baik secara individu maupun dalam tim, yang melatih saya untuk berpikir sistematis, bertanggung jawab, dan mampu menyelesaikan masalah teknis secara bertahap. Selain kemampuan teknis, saya juga aktif dalam organisasi kemahasiswaan yang membentuk kemampuan komunikasi, kerja tim, manajemen waktu, dan kepemimpinan dasar.
+
+            Saya merupakan pribadi yang adaptif, terbuka terhadap teknologi baru, serta memiliki komitmen untuk terus belajar dan berkontribusi secara aktif sebagai bagian dari tim pengembangan.
+          </p>
+          <div class="stats">
+            <div class="stat-item fade-in">
+              <span class="number">2023</span>
+              <span class="label">Joined University</span>
+              <span class="desc">Informatika, UIN Banten</span>
+            </div>
+            <div class="stat-item fade-in">
+              <span class="number">2024</span>
+              <span class="label">Leadership Experience</span>
+              <span class="desc">Ketua Pelaksana Seminar Mental Health</span>
+            </div>
+          </div>
+        </div>
+        <!-- Ganti placeholder dengan foto close-up Anda -->
+        <div class="badge fade-in">
+          <img src="foto-close-up.png" alt="Amalia Kartika Close-up" />
+          <div class="badge-title">Informatika Student</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Organizational Experience Section -->
+<section id="experience" class="experience">
+  <div class="container">
+    <h2 class="section-title">Pengalaman Organisasi</h2>
+    <p class="subtitle">Aktifitas dan Kontribusi dalam Organisasi Kemahasiswaan</p>
+    <div class="accordion" id="org-accordion">
+
+      <!-- DEMA Fakultas -->
+      <div class="accordion-item fade-in">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="accordion-title">Dewan Eksekutif Mahasiswa (DEMA) Fakultas — Divisi Internal</span>
+          <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content" aria-hidden="true">
+          <div class="accordion-date">Jan 2024 – Des 2024</div>
+          <ul>
+            <li>Aktif dalam pengelolaan administrasi dan koordinasi internal organisasi.</li>
+            <li>Membantu perencanaan dan pelaksanaan kegiatan kemahasiswaan.</li>
+            <li>Berkoordinasi dengan anggota dan divisi lain untuk kelancaran program kerja.</li>
+            <li>Mengembangkan kemampuan kerja tim, komunikasi, dan manajemen waktu.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Ketua Pelaksana Seminar Mental Health -->
+      <div class="accordion-item fade-in">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="accordion-title">Ketua Pelaksana Seminar Mental Health</span>
+          <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content" aria-hidden="true">
+          <div class="accordion-date">2024</div>
+          <ul>
+            <li>Memimpin tim dalam perencanaan, koordinasi, dan pelaksanaan seminar.</li>
+            <li>Mengelola administrasi, dokumentasi, dan komunikasi antar stakeholder.</li>
+            <li>Menjamin kelancaran acara melalui manajemen risiko dan pembagian tugas.</li>
+            <li>Memperkuat soft skills: kepemimpinan, problem solving, dan public speaking.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FESTOLOGY -->
+      <div class="accordion-item fade-in">
+        <button class="accordion-header" aria-expanded="false">
+          <span class="accordion-title">FESTOLOGY (Acara DEMA) — Bagian Kestari</span>
+          <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content" aria-hidden="true">
+          <div class="accordion-date">2023</div>
+          <ul>
+            <li>Bertanggung jawab dalam pengelolaan administrasi dan kesekretariatan acara.</li>
+            <li>Menyusun dan mengelola surat-menyurat serta dokumen pendukung kegiatan.</li>
+            <li>Melakukan pendataan peserta dan pengarsipan dokumen secara sistematis.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Tools & Technologies</h2>
+      <p class="subtitle">My Professional Skills</p>
+      <div class="skills-grid">
+        <div class="skill-item animate-on-scroll">
+          <i class="fab fa-php"></i>
+          <span>PHP</span>
+          <small>Backend Language</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+          <small>Language</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fab fa-html5"></i>
+          <span>HTML</span>
+          <small>Language</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS</span>
+          <small>Language</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fas fa-database"></i>
+          <span>MySQL</span>
+          <small>Database</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fas fa-code"></i>
+          <span>Debugging</span>
+          <small>Problem Solving</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fas fa-laptop-code"></i>
+          <span>Web Dev</span>
+          <small>Frontend & Backend</small>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <i class="fas fa-file-alt"></i>
+          <span>Documentation</span>
+          <small>Admin & Coordination</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Project</h2>
+    <p class="subtitle">Beberapa proyek sederhana yang saya kerjakan selama perkuliahan.</p>
+    <div class="projects-grid">
+      <!-- Project 1: Cake Bakery Kartika -->
+      <div class="project-card animate-on-scroll">
+        <img src="cake-bakery.png" alt="Cake Bakery Kartika" />
+        <div class="project-info">
+          <h3>Cake Bakery Kartika</h3>
+          <p>HTML, CSS, JavaScript, PHP</p>
+          <p class="project-desc">Website toko kue sederhana dengan fitur kategori, galeri, dan kontak. Didesain responsif dan user-friendly.</p>
+        </div>
+      </div>
+
+      <!-- Project 2: Jadwal Perkuliahan -->
+      <div class="project-card animate-on-scroll">
+        <img src="jadwal-perkuliahan.jpeg" alt="Jadwal Perkuliahan" />
+        <div class="project-info">
+          <h3>Jadwal Perkuliahan</h3>
+          <p>PHP, MySQL, HTML, CSS</p>
+          <p class="project-desc">Sistem manajemen jadwal kuliah dengan fitur CRUD (Tambah, Edit, Hapus) untuk memudahkan pengelolaan jadwal perkuliahan.</p>
+        </div>
+      </div>
+
+      <!-- Project 3: Sistem Informasi Akademik -->
+      <div class="project-card animate-on-scroll">
+        <img src="siakad-uin.jpeg" alt="Sistem Informasi Akademik" />
+        <div class="project-info">
+          <h3>Sistem Informasi Akademik UIN Banten</h3>
+          <p>PHP, MySQL, Bootstrap, Admin Panel</p>
+          <p class="project-desc">Dashboard admin untuk mengelola data mahasiswa, dosen, mata kuliah, dan jadwal perkuliahan di lingkungan kampus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="certificates">
+  <div class="container">
+    <h2 class="section-title">Sertifikat</h2>
+    <p class="subtitle">Pelatihan resmi yang telah saya selesaikan.</p>
+    <div class="certificates-grid">
+  
+  <!-- Sertifikat 1: Belajar Back-End Pemula -->
+  <div class="certificate-card animate-on-scroll">
+    <div class="cert-badge">
+      <i class="fab fa-js"></i>
+    </div>
+    <h3>Belajar Back-End Pemula dengan JavaScript</h3>
+    <p class="issuer">Dicoding • AWS</p>
+    <p class="date">Selesai: 18 November 2025</p>
+    <p class="desc">Membuat RESTful API sederhana menggunakan Node.js & Hapi, deploy di Amazon EC2, dan uji dengan Postman.</p>
+    <a href="https://dicoding.com/certificates/2VX35LR53PYQ" target="_blank" class="btn-cert">Lihat Sertifikat</a>
+  </div>
+
+  <!-- Sertifikat 2: Dasar Pemrograman JavaScript -->
+  <div class="certificate-card animate-on-scroll">
+    <div class="cert-badge">
+      <i class="fab fa-node-js"></i>
+    </div>
+    <h3>Belajar Dasar Pemrograman JavaScript</h3>
+    <p class="issuer">Dicoding</p>
+    <p class="date">Selesai: 15 Desember 2025</p>
+    <p class="desc">Menguasai sintaks JavaScript, OOP, Functional Programming, Asynchronous, dan modularisasi untuk pengembangan web.</p>
+    <a href="https://dicoding.com/certificates/4EXG3GMKQZRL" target="_blank" class="btn-cert">Lihat Sertifikat</a>
+  </div>
+
+  <!-- Sertifikat 3: Dasar Cloud dan Gen AI di AWS -->
+  <div class="certificate-card animate-on-scroll">
+    <div class="cert-badge">
+      <i class="fab fa-aws"></i>
+    </div>
+    <h3>Belajar Dasar Cloud dan Gen AI di AWS</h3>
+    <p class="issuer">Dicoding • AWS</p>
+    <p class="date">Selesai: 12 Desember 2025</p>
+    <p class="desc">Memahami infrastruktur AWS, komputasi cloud, keamanan, penyimpanan, dan dasar-dasar Generative AI.</p>
+    <a href="https://dicoding.com/certificates/NVP7JE07VXR0" target="_blank" class="btn-cert">Lihat Sertifikat</a>
+  </div>
+
+</div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact & Chat</h2>
+      <p>Hubungi saya melalui media sosial atau formulir di bawah.</p>
+      <div class="contact-content">
+        <div class="chat-room">
+          <h3>💬 Info Singkat</h3>
+          <div class="messages">
+            <div class="message received">
+              <strong>Amalia Kartika:</strong> Terima kasih telah mengunjungi portofolio saya. Silakan hubungi saya melalui email atau Instagram.
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px; margin-top: 15px;">
+            <a href="mailto:Kartikaamalia025@gmail.com" class="login-btn"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://instagram.com/kartikaaa63" target="_blank" class="login-btn"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Input Name..." required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Input Email..." required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Message..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <span>Portofolio</span>
+        </div>
+        <div class="footer-right">
+          <a href="https://instagram.com/kartikaaa63" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:Kartikaamalia025@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script untuk animasi scroll -->
+  <script>
+    // Fungsi untuk animasi fade-in saat scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll('.fade-in, .animate-on-scroll');
+    hiddenElements.forEach(el => observer.observe(el));
+
+    // Efek bounce pada tombol Download CV
+    const downloadBtn = document.querySelector('.animated-btn');
+    downloadBtn.addEventListener('mouseenter', () => {
+      downloadBtn.style.animation = 'bounce 0.5s ease';
+      setTimeout(() => {
+        downloadBtn.style.animation = '';
+      }, 500);
+    });
+
+    // Efek typewriter pada judul
+    const title = document.querySelector('.animated-title span');
+    const text = title.textContent;
+    title.textContent = '';
+    let i = 0;
+    const typingSpeed = 100;
+
+    function typeWriter() {
+      if (i < text.length) {
+        title.textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, typingSpeed);
+      }
+    }
+
+    window.addEventListener('load', typeWriter);
+
+    // === Accordion functionality for organizational experience ===
+    document.querySelectorAll('.accordion-header').forEach(button => {
+      button.addEventListener('click', () => {
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        const content = button.nextElementSibling;
+
+        // Close all other accordions
+        document.querySelectorAll('.accordion-header').forEach(other => {
+          if (other !== button) {
+            other.setAttribute('aria-expanded', 'false');
+            other.nextElementSibling.setAttribute('aria-hidden', 'true');
+          }
+        });
+
+        // Toggle current
+        button.setAttribute('aria-expanded', !expanded);
+        content.setAttribute('aria-hidden', expanded);
+      });
+    });
+
+  </script>
+
+</body>
+</html>
